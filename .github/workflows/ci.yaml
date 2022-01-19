@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/unnamed22090/laravel:latest
+          tags: docker.pkg.github.com/unnamed22090/laravel:latest
           secrets: |
             GIT_AUTH_TOKEN= ${{ secrets.ACCESS_TOKEN }}
